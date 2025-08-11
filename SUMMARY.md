@@ -78,6 +78,7 @@
   * [Mouse](unity-for-airship/user-input/mouse.md)
 * [Random](unity-for-airship/random.md)
 * [Easy Helper Utils](unity-for-airship/easy-helper-utils/README.md)
+  * [Material Color URP](unity-for-airship/easy-helper-utils/material-color-urp.md)
   * [Easy Motion](unity-for-airship/easy-helper-utils/easy-motion.md)
   * [Easy Grid Align](unity-for-airship/easy-helper-utils/easy-grid-align.md)
   * [Easy Look At](unity-for-airship/easy-helper-utils/easy-look-at.md)

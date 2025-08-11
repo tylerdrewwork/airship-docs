@@ -6,6 +6,12 @@ description: >-
 
 # Easy Helper Utils
 
+{% content-ref url="material-color-urp.md" %}
+[material-color-urp.md](material-color-urp.md)
+{% endcontent-ref %}
+
+<figure><img src="../../.gitbook/assets/MaterialColorURP.gif" alt="" width="240"><figcaption></figcaption></figure>
+
 {% content-ref url="easy-motion.md" %}
 [easy-motion.md](easy-motion.md)
 {% endcontent-ref %}
