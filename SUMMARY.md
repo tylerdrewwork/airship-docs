@@ -32,9 +32,10 @@
 
 ## Publishing
 
+* [Create Dashboard - Game CMS](publishing/create-dashboard-game-cms/README.md)
+  * [Game Visibility](publishing/create-dashboard-game-cms/game-visibility.md)
+  * [Game Loading Screens](publishing/create-dashboard-game-cms/game-loading-screens.md)
 * [Publish Game](publishing/publish-game.md)
-* [Game Visibility](publishing/game-visibility.md)
-* [Developer Console](publishing/developer-console.md)
 
 ## Core Package
 
@@ -49,6 +50,7 @@
   * [Prefab Voxels](core-package/voxelworld/prefab-voxels.md)
   * [QuarterBlocks](core-package/voxelworld/quarterblocks.md)
 * [Enable / Disable Core Features](core-package/enable-disable-core-features.md)
+* [Developer Console](core-package/developer-console.md)
 
 ## Platform Services
 

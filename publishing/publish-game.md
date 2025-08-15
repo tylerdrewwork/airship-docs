@@ -49,6 +49,6 @@ Your first publish might take a few minutes. Future publishes will be faster.
 
 ### Play your game
 
-Once your game is live you will see a message in your console with a link to play your game on Steam. By default your game is [unlisted](game-visibility.md), meaning you can send this link to friends and play together. Congrats!
+Once your game is live you will see a message in your console with a link to play your game on Steam. By default your game is [unlisted](create-dashboard-game-cms/game-visibility.md), meaning you can send this link to friends and play together. Congrats!
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-09-13 at 5.56.16 PM.png" alt="" width="375"><figcaption></figcaption></figure>

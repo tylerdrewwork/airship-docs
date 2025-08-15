@@ -4,7 +4,7 @@ You can export a profile of server CPU usage to debug lag. It provides a breakdo
 
 ### Generate a profile
 
-To generate a profile head into a game server and in the [Developer Console \[F1\]](../publishing/developer-console.md) type:
+To generate a profile head into a game server and in the [Developer Console \[F1\]](../core-package/developer-console.md) type:
 
 ```
 profile server 5 false
