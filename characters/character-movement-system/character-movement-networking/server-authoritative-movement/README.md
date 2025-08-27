@@ -8,13 +8,13 @@ description: How to use Server Authoritative Movement.
 Server authoritative movement is an advanced feature and will significantly increase the complexity of any movement related game mechanics. Unless your game has strong competitive integrity requirements, we recommend using Client Authoritative movement.
 {% endhint %}
 
-If you are not familiar with the concept of Server Authoritative movement, the [Source Multiplayer Networking](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking) wiki has a good overview. Airship's server authoritative networking model closely follows the concepts explained here.
+If you are not familiar with the concept of Server Authoritative movement, the [Source Multiplayer Networking](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking) wiki has a good overview. Airship's server authoritative networking model closely follows the concepts explained there.
 
 ## Set Up
 
 To use Server Authoritative networking, simply create a character variant and check the "Server Auth" checkbox in the "Character Networked State Manager" component.
 
-<figure><img src="../../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 When server auth movement is enabled, the client may call Physics.Simulate() many times in one FixedUpdate step in order to resimulate incorrectly predicted commands. Use the AirshipOfflineRigidbody or AirshipNetworkedObject components to stop clients from incorrectly simulating rigidbodies that are not part of the character networking system.

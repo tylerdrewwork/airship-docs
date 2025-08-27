@@ -21,7 +21,7 @@ The client controls their own character and reports their position and state the
 The client sends inputs to the server and predicts what will happen. The server runs the inputs, and sends the correct results back to the client and all observers. If the servers result is different than the client, the client will replay all predicted inputs with the correct data.&#x20;
 
 {% hint style="danger" %}
-This is an advanced feature and has strict requirements and will significantly increase the complexity of any movement and physics related game mechanics. For more information read [Server Authoritative Movement](server-authoritative-movement.md).
+This is an advanced feature with strict requirements and will significantly increase the complexity of any movement and physics related game mechanics. For more information read [Server Authoritative Movement](server-authoritative-movement/).
 {% endhint %}
 
 | PROS                                                                                                      | CONS                                                            |
