@@ -44,6 +44,7 @@ Your first publish might take a few minutes. Future publishes will be faster.
    * iOS Build Support
    * Linux Build Support (IL2CPP)
    * Windows Build Support (IL2CPP)
+   * Mac Build Support (Mono)
 4. Install the module, restart Unity Editor, and Publish your game!
 {% endhint %}
 
