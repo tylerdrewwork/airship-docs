@@ -5,6 +5,7 @@ description: >-
 ---
 
 # Inventory
+
 {% hint style="info" %}
 When referencing assets by path they should be under `Assets/Resources` folder (or part of a package under `Assets/AirshipPackages`). This ensures they will be included in your deploy.
 {% endhint %}
@@ -22,7 +23,7 @@ Airship.Inventory.RegisterItem("WoodSword", {
 // Give characters a wood sword on spawn
 if (Game.IsServer()) {
     Airship.Characters.ObserveCharacters((character) => {
-        character.inventory.AddItem(new ItemStack("WoodSword"));
+        character.inventory?.AddItem(new ItemStack("WoodSword"));
     });
 }
 
@@ -31,9 +32,8 @@ if (Game.IsServer()) {
 ```typescript
 // Observe the local character's held item
 Airship.Inventory.ObserveLocalHeldItem((itemStack) => {
-    if (itemStack?.GetItemType() === "WoodSword") {
+    if (itemStack?.itemType === "WoodSword") {
         // start wood sword logic
     }
 });
 ```
-
