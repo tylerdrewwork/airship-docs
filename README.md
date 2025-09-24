@@ -9,7 +9,7 @@ export default class CubeSpinner extends AirshipBehaviour {
     public rotation = new Vector3(1, 1, 0.5);
     
     Update(dt: number) {
-        this.gameObject.transform.Rotate(this.rotation.mul(dt));
+        this.transform.Rotate(this.rotation.mul(dt));
     }
 }
 ```
