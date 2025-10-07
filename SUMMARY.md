@@ -14,6 +14,7 @@
   * [Using Component Decorators](typescript/airshipbehaviour/using-component-decorators.md)
   * [Accessing Other Components](typescript/airshipbehaviour/accessing-other-components.md)
   * [Lifecycles](typescript/airshipbehaviour/lifecycles.md)
+* [Server-only/Client-only code](typescript/server-only-client-only-code.md)
 
 ## Networking
 
