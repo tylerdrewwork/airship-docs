@@ -33,7 +33,7 @@ export default class ExampleComponent extends AirshipBehaviour {
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Default inspector for the "Example Component" object</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Default inspector for the "Example Component" object</p></figcaption></figure>
 
 ### Creating a custom inspector script
 
@@ -41,7 +41,7 @@ Creating a custom inspector for any _Airship_ serialized object is pretty straig
 
 {% code title="Assets/Editor/ExampleComponentInspector.cs" %}
 ```csharp
-[AirshipEditor("ExampleComponent")]
+[CustomAirshipEditor("ExampleComponent")]
 public class ExampleComponentEditor : AirshipEditor {
     public override void OnInspectorGUI() {
         EditorGUILayout.LabelField("This is a custom inspector");
@@ -50,7 +50,7 @@ public class ExampleComponentEditor : AirshipEditor {
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Custom Inspector with label</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Custom Inspector with label</p></figcaption></figure>
 
 {% hint style="info" %}
 You should make sure that your editor scripts are in an _Editor_ folder.
@@ -62,3 +62,57 @@ You should make sure that your editor scripts are in an _Editor_ folder.
 * You can access airship properties via `serializedObject.FindAirshipProperty("propertyName")` - this will return an `AirshipSerializedValue` which you can use to check or modify the property with; similar to `SerializedProperty`.
 * You can render properties using the Airship editor system using `AirshipEditorGUI.PropertyField(airshipProperty)` by default, however you are not limited to it.
 
+### Example 1: Showing/Hiding properties based on user choices
+
+There may be cases where you want to show/hide properties based on what the user has selected
+
+{% code title="Assets/Code/ExampleComponent.ts" %}
+```typescript
+export default class ExampleComponent extends AirshipBehaviour {
+	public name: string;
+	public color = Color.blue;
+
+	public hiddenProperties = false;
+	public hiddenNumber: number;
+	public hiddenBoolean: boolean;
+	public hiddenString: string;
+}
+
+```
+{% endcode %}
+
+{% code title="Assets/Editor/ExampleComponentInspector.cs" %}
+```csharp
+[CustomAirshipEditor("ExampleComponent")]
+public class ExampleComponentEditor : AirshipEditor {
+    public override void OnInspectorGUI() {
+        // PropertyField here can be used as shortcut to show property fields
+        PropertyField("name");
+        PropertyField("color"); 
+        
+        // If the property is a boolean one, it can be used to conditionally check
+        if (PropertyField("hiddenProperties")) {
+            // Properties can also be queried using 'FindAirshipProperty'
+            var secretValue = serializedObject.FindAirshipProperty("hiddenNumber");
+            PropertyField(secretValue);
+            
+            // values of properties can be queried as well!
+            if (secretValue.numberValue > 100) {
+                EditorGUILayout.LabelField("The number is greater than 100!");
+            }
+            // You can also show multiple properties in one line
+            PropertyFields("hiddenBoolean", "hiddenString");
+        }
+    }
+}
+
+```
+{% endcode %}
+
+The resulting inspector behaviour:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>With 'hidden properties' unchecked<br></p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>With 'hidden properties' checked</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>With 'hidden number' > 100</p></figcaption></figure>
