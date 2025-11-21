@@ -1,4 +1,4 @@
-# Create a Custom Inspector (C#)
+# AirshipBehaviour Inspectors (C#)
 
 {% hint style="danger" %}
 <i class="fa-flask-round-potion">:flask-round-potion:</i> This is currently a beta feature being tested in Airship and includes a rewrite of the inspector system. The API is subject to change.
@@ -16,8 +16,7 @@ While Airship will generate a default inspector for `AirshipBehaviour` component
 * Organize and group properties
 * Conditionally show/hide UI based on user choices.
 
-If you need to just _categorize or add constraints_ to properties, you can refer to [Using Component Decorators](../typescript/airshipbehaviour/adding-inspector-properties.md#organizing-your-properties). \
-
+If you need to just _categorize or add constraints_ to properties, you can refer to [Using Component Decorators](../typescript/airshipbehaviour/adding-inspector-properties.md#organizing-your-properties). <br>
 
 {% hint style="warning" %}
 Currently editor scripts can only be written through the C# _AirshipEditor_ API. Support for TypeScript-based editor scripts may come in future.
@@ -36,6 +35,10 @@ export default class ExampleComponent extends AirshipBehaviour {
 <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Default inspector for the "Example Component" object</p></figcaption></figure>
 
 ### Creating a custom inspector script
+
+{% hint style="warning" %}
+Airship only supports using IMGUI for custom inspectors at this time.
+{% endhint %}
 
 Creating a custom inspector for any _Airship_ serialized object is pretty straightforward. You will need to create a class that derives from `AirshipEditor` and add the `AirshipEditor` attribute to it. This will let Airship know what class this custom inspector represents.
 

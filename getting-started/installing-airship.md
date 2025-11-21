@@ -13,13 +13,11 @@
 This project has everything prepared to start building a game on Airship.&#x20;
 
 * Make sure to unzip after downloading.
-* After unzipping, **rename the airship-template-main folder** to the name of your project.\
-
+* After unzipping, **rename the airship-template-main folder** to the name of your project.<br>
 
 ### Open in Unity Hub
 
-1.  Add -> Add project from disk.\
-
+1.  Add -> Add project from disk.<br>
 
     <figure><img src="../.gitbook/assets/Screenshot 2024-03-12 at 7.42.06 AM.png" alt=""><figcaption></figcaption></figure>
 2. Select the unzipped (and renamed!) Starter Template folder.

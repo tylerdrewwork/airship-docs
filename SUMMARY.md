@@ -15,6 +15,7 @@
   * [Accessing Other Components](typescript/airshipbehaviour/accessing-other-components.md)
   * [Lifecycles](typescript/airshipbehaviour/lifecycles.md)
 * [Server-only/Client-only code](typescript/server-only-client-only-code.md)
+* [Compiler JSDoc Modifiers](typescript/compiler-jsdoc-modifiers.md)
 
 ## Networking
 
@@ -68,9 +69,11 @@
 * [Matchmaking](platform-services/matchmaking.md)
 * [External Services](platform-services/external-services.md)
 
-## Editor
+## Editor Extensions
 
-* [Create a Custom Inspector (C#)](editor/create-a-custom-inspector-c.md)
+* [Extending the editor](editor-extensions/extending-the-editor.md)
+* [AirshipBehaviour Inspectors (C#)](editor-extensions/airshipbehaviour-inspectors-c.md)
+* [Editor API (C#)](editor-extensions/editor-api-c.md)
 
 ## Unity For Airship
 

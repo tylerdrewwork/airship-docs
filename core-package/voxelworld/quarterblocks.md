@@ -37,13 +37,11 @@ UL - Upper Vertical Edge A with Cap\*\*
 
 UM - Upper Horizontal Edge A with Cap\*\*
 
-\*\* Might be going away/replaced with something easier\
-
+\*\* Might be going away/replaced with something easier<br>
 
 ### Pivot Points
 
-The pivot points of these pieces is **\*ESSENTIAL\***.  All blocks are 1x1x1, with their pivot points in the center of the local 1x1x1 space. \
-
+The pivot points of these pieces is **\*ESSENTIAL\***.  All blocks are 1x1x1, with their pivot points in the center of the local 1x1x1 space. <br>
 
 <figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption><p>All pivot points must be in the center of the 1x1x1 block they're a part of</p></figcaption></figure>
 
@@ -131,8 +129,7 @@ DF - Lower Horizontal Edge B
 
 
 UG - Upper Corner A\
-DG - Lower Corner A\
-
+DG - Lower Corner A<br>
 
 UH - Upper Top Inner Corner A
 
