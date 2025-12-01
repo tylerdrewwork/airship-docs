@@ -135,6 +135,7 @@
 * [Accessories Intro](accessories/accessories-intro.md)
 * [Creating Accessories](accessories/creating-accessories.md)
 * [Using Accessories](accessories/using-accessories.md)
+* [Using Accessory Customization](accessories/using-accessory-customization.md)
 
 ## Optimization
 

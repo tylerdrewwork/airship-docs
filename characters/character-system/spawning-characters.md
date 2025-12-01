@@ -1,7 +1,7 @@
 # Spawning Characters
 
 {% hint style="info" %}
-For more details on how to control and customize characters see [The Character](broken-reference) section
+For more details on how to control and customize characters see [The Character](/broken/pages/StXHUdYqQKlL1ulsxEWY) section
 {% endhint %}
 
 You can spawn characters by calling `player.SpawnCharacter()` on the server.

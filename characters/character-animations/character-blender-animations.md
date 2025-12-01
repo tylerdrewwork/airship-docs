@@ -49,7 +49,7 @@ Place the FBX into a folder in your project or drag it into the Project window o
 
 Set the rig type to Generic and assign the character avatar
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (5) (2).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 You should see each Action you made as an Animation Clip in the Animation tab of your file
 
@@ -57,7 +57,7 @@ You should see each Action you made as an Animation Clip in the Animation tab of
 
 Your animation clips can now be used as variables in AirshipComponents or directly in an Animator state machine.&#x20;
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure></div>
 
 ```typescript
 import Character from "@Easy/Core/Shared/Character/Character";
@@ -76,4 +76,4 @@ export default class AnimTest extends AirshipBehaviour {
 }
 ```
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (7) (2).png" alt="" width="375"><figcaption></figcaption></figure></div>

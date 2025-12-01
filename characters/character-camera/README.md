@@ -18,7 +18,7 @@ Airship.Camera.SetMode(CharacterCameraMode.Orbit);
 Airship.Camera.SetMode(CharacterCameraMode.Fixed);
 ```
 
-For more complex and custom camera setups, see the [Default Camera Modes](broken-reference) and [Camera Structure](custom-camera-mode.md) pages.
+For more complex and custom camera setups, see the [Default Camera Modes](/broken/pages/CNQXfA2zDO6QFKut3w0z) and [Camera Structure](custom-camera-mode.md) pages.
 
 ### First Person
 
@@ -43,6 +43,6 @@ Airship.Camera.ObserveFirstPerson((isFirstPerson) => {
 [custom-camera-mode.md](custom-camera-mode.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="/broken/spaces/IbaXflSJA8L9N9yOx089/pages/CNQXfA2zDO6QFKut3w0z" %}
+[Broken link](/broken/spaces/IbaXflSJA8L9N9yOx089/pages/CNQXfA2zDO6QFKut3w0z)
 {% endcontent-ref %}

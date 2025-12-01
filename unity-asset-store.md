@@ -27,7 +27,7 @@ Shaders and Materials will need to support URP. All Unity assets will specify th
 
 ### Animations
 
-Animations can be imported and used in Airship games. If you use a custom character that supports Humanoid animations, there are many animations on the store that will work. However the Airship characters in the [character system](broken-reference) will not work with any animations from the asset store.&#x20;
+Animations can be imported and used in Airship games. If you use a custom character that supports Humanoid animations, there are many animations on the store that will work. However the Airship characters in the [character system](/broken/pages/StXHUdYqQKlL1ulsxEWY) will not work with any animations from the asset store.&#x20;
 
 {% hint style="danger" %}
 Humanoid animations will not work for Airship Characters. Airship characters use a custom rig and require animations built specifically for it. To build animations for Airship characters you can use [this Blender file](characters/character-animations/character-blender-animations.md)
@@ -57,4 +57,4 @@ Importing Unity Asset store packs is an easy way to bloat your project. Most ass
 Art asset packs can increase your game sizes by gigabytes! Optimize, and don't use any assets in your scenes / prefabs unless you want them in the download bundle for your game.&#x20;
 {% endhint %}
 
-For optimization tips [Look Here](broken-reference).&#x20;
+For optimization tips [Look Here](/broken/pages/krFCmMBYYqwg6YpVbyHI).&#x20;

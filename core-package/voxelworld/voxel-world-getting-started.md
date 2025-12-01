@@ -8,7 +8,7 @@ description: How to setup a voxel world and our suggested best practices
 
 VoxelWorld is a component that you will place on a GameObject. To have a Voxel World you will need several components.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Voxel World - This is the main component that provides the main editor tools for creating a voxel world
 * Voxel Blocks - Points to the data for your voxels
@@ -32,11 +32,11 @@ You can create a new save file in the project by right clicking and choosing:\
 
 To edit blocks, click the Open Editor button on the VoxelWorld component. This opens a window that you should dock somewhere convenient. The editor lets you switch between voxel worlds, select block types, and access the tools panel.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 Tools will show up in your scene view for extra functionality
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Be sure to save your work after you are done editing!&#x20;

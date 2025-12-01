@@ -32,7 +32,7 @@ export default class ExampleComponent extends AirshipBehaviour {
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Default inspector for the "Example Component" object</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Default inspector for the "Example Component" object</p></figcaption></figure>
 
 ### Creating a custom inspector script
 
@@ -53,7 +53,7 @@ public class ExampleComponentEditor : AirshipEditor {
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Custom Inspector with label</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Custom Inspector with label</p></figcaption></figure>
 
 {% hint style="info" %}
 You should make sure that your editor scripts are in an _Editor_ folder.
@@ -114,8 +114,8 @@ public class ExampleComponentEditor : AirshipEditor {
 
 The resulting inspector behaviour:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>With 'hidden properties' unchecked<br></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>With 'hidden properties' unchecked<br></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>With 'hidden properties' checked</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>With 'hidden properties' checked</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>With 'hidden number' > 100</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>With 'hidden number' > 100</p></figcaption></figure>

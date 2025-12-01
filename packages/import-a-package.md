@@ -10,7 +10,7 @@ description: >-
 
 In Unity select `Airship > Airship` Packages which will open the Packages window
 
-<div align="left"><figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="176"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt="" width="176"><figcaption></figcaption></figure></div>
 
 In the Packages window select the Add Package dropdown and enter the Package ID for the package you want to import
 

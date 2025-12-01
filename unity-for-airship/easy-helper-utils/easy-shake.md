@@ -4,7 +4,7 @@ description: A c# component that shakes a transform.
 
 # Easy Shake
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="324"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt="" width="324"><figcaption></figcaption></figure>
 
 Can be used for Camera shakes or damage effects etc.&#x20;
 

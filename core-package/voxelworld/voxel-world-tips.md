@@ -20,5 +20,5 @@ The EasyMotion component is a quick way to add motion to your scenes.&#x20;
 
 For this windmill a VoxelWorld save file was created for just the blades. Then the blades were placed in a parent transform that acted as the blades pivot point. With an easy motion component set to rotate, the windmill comes alive!&#x20;
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
