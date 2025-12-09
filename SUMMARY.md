@@ -8,12 +8,13 @@
 ## TypeScript
 
 * [Typescript Overview](typescript/typescript-overview.md)
-* [AirshipBehaviour](typescript/airshipbehaviour/README.md)
+* [Airship Components](typescript/airshipbehaviour/README.md)
   * [Adding Inspector Properties](typescript/airshipbehaviour/adding-inspector-properties.md)
   * [AirshipSingleton](typescript/airshipbehaviour/airshipsingleton.md)
   * [Using Component Decorators](typescript/airshipbehaviour/using-component-decorators.md)
   * [Accessing Other Components](typescript/airshipbehaviour/accessing-other-components.md)
   * [Lifecycles](typescript/airshipbehaviour/lifecycles.md)
+* [Airship Scriptable Objects](typescript/airship-scriptable-objects.md)
 * [Server-only/Client-only code](typescript/server-only-client-only-code.md)
 * [Compiler JSDoc Modifiers](typescript/compiler-jsdoc-modifiers.md)
 
