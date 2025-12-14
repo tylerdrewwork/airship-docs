@@ -23,7 +23,7 @@ Since Airship uses Unity, most of the custom editor features will work as-is. So
 
 Airship also has our own analogous versions of Unity features such as
 
-* [Adding custom property inspectors for `AirshipBehaviour`s](custom-inspectors-c.md)
+* [Adding custom property inspectors for `AirshipBehaviour`s](custom-inspectors-c/)
 
 
 
@@ -48,7 +48,7 @@ Airship has the following user editor APIs you can use:
 * \
   `AirshipSerializedProperty`  and `AirshipSerializedObject` for handling Airship Behaviour property serialization
 * `AirshipCustomEditors` for querying the registered custom inspectors for AirshipBehaviours
-  * See [AirshipBehaviour inspectors](custom-inspectors-c.md) for how to add custom editors
+  * See [AirshipBehaviour inspectors](custom-inspectors-c/) for how to add custom editors
 * `AirshipType` which is the Airship version of `Type` for TypeScript-based types.
   * Types can be queried using `AirshipType.GetType(name)`&#x20;
 * `AirshipEditorGUI` - for drawing editor properties for `AirshipSerializedProperty` instances using IMGUI.

@@ -1,14 +1,5 @@
 # Airship Scriptable Objects
 
-{% hint style="warning" %}
-<i class="fa-flask">:flask:</i>`AirshipScriptableObject` is in beta pending full release, and may not work on some platforms yet
-
-* <i class="fa-check">:check:</i> Windows and MacOS
-* <i class="fa-xmark-large">:xmark-large:</i> Android and iOS
-
-Using this feature on currently unsupported platforms may not work as expected.
-{% endhint %}
-
 `AirshipScriptableObject` is a class you can derive from to create objects that live independently of GameObjects.  This allows you to save data as an asset to use at runtime.
 
 Like [ScriptableObject](https://docs.unity3d.com/6000.2/Documentation/ScriptReference/ScriptableObject.html) in Unity, they are accessible from scenes and assets within a project.
@@ -17,11 +8,13 @@ Like [ScriptableObject](https://docs.unity3d.com/6000.2/Documentation/ScriptRefe
 Changing values in a Scriptable Object requires a full publish (as it is an asset) instead of a code publish to update, if you need a value that can be changed via a code publish, you should be storing it in code.
 {% endhint %}
 
-<pre class="language-typescript"><code class="lang-typescript">// This will show in Create -> ScriptableObjects -> Example Data Object by default
+{% code fullWidth="false" %}
+```typescript
+// This will show in Create -> ScriptableObjects -> Example Data Object by default
 @CreateAssetMenu()
 export default class ExampleDataObject extends AirshipScriptableObject {
-<strong>    public message = "Hello, world!";
-</strong>    
+    public message = "Hello, world!";
+    
     protected Awake() {
          // This will be fired when the scriptable object is first referenced/created.
          // The properties of this object will be set up on Awake
@@ -34,7 +27,8 @@ export default class ExampleDataObject extends AirshipScriptableObject {
          print("This object was destroyed!");
     }
 }
-</code></pre>
+```
+{% endcode %}
 
 This allows you to save data as an asset to use at runtime. This can be useful for global data shared between objects, avoiding the necessity for duplicate data.
 
@@ -80,7 +74,8 @@ export default class NPCCharacterSpawner extends AirshipBehaviour {
 			customCharacterTemplate: this.template.customPrefab,
 		});
 
-		character.SetHealth(this.template.maxHealth);
+		character.SetMaxHealth(this.template.maxHealth);
+		character.SeatHealth(this.template.maxHealth);
 		character.SetDisplayName(this.template.name);
 	}
 }

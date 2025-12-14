@@ -73,7 +73,8 @@
 ## Editor Extensions
 
 * [Extending the editor](editor-extensions/extending-the-editor.md)
-* [Custom Inspectors (C#)](editor-extensions/custom-inspectors-c.md)
+* [Custom Inspectors (C#)](editor-extensions/custom-inspectors-c/README.md)
+  * [Displaying properties of other components](editor-extensions/custom-inspectors-c/displaying-properties-of-other-components.md)
 * [Editor API (C#)](editor-extensions/editor-api-c.md)
 
 ## Unity For Airship

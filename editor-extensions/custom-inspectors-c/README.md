@@ -10,9 +10,9 @@ While Airship will generate a default inspector for `AirshipBehaviour` component
 * Organize and group properties
 * Conditionally show/hide UI based on user choices.
 
-If you need to just _categorize or add constraints_ to properties, you can refer to [Using Component Decorators](../typescript/airshipbehaviour/adding-inspector-properties.md#organizing-your-properties). <br>
+If you need to just _categorize or add constraints_ to properties, you can refer to [Using Component Decorators](../../typescript/airshipbehaviour/adding-inspector-properties.md#organizing-your-properties). <br>
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Currently editor scripts can only be written through the C# _AirshipEditor_ API. Support for TypeScript-based editor scripts may come in future.
 {% endhint %}
 
@@ -26,11 +26,11 @@ export default class ExampleComponent extends AirshipBehaviour {
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Default inspector for the "Example Component" object</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>Default inspector for the "Example Component" object</p></figcaption></figure>
 
 ### Creating a custom inspector script
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Airship only supports using IMGUI for custom inspectors at this time.
 {% endhint %}
 
@@ -47,7 +47,7 @@ public class ExampleComponentEditor : AirshipEditor {
 ```
 {% endcode %}
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Custom Inspector with label</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Custom Inspector with label</p></figcaption></figure>
 
 {% hint style="info" %}
 You should make sure that your editor scripts are in an _Editor_ folder.
@@ -108,8 +108,8 @@ public class ExampleComponentEditor : AirshipEditor {
 
 The resulting inspector behaviour:
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>With 'hidden properties' unchecked<br></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>With 'hidden properties' unchecked<br></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>With 'hidden properties' checked</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>With 'hidden properties' checked</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>With 'hidden number' > 100</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>With 'hidden number' > 100</p></figcaption></figure>
