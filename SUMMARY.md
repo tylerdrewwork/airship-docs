@@ -149,6 +149,7 @@
 
 * [FAQ](other/faq.md)
 * [JavaScript -> Luau](other/javascript-greater-than-luau.md)
+* [Airship on Linux](other/airship-on-linux.md)
 
 ## Guides
 
