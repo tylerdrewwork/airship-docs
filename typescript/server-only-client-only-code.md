@@ -34,14 +34,14 @@ export default class ServerAndClientOnlyMethods extends AirshipBehaviour {
 ```
 
 {% hint style="warning" %}
-If you try to use a server-only method on the client, or a client-only method on the server - it will error.
+If you try to use a server-only method on the client, or a client-only method on the server, it will error.
 
 However, there is an exception to this rule: Lifecycle methods such as `Awake`, `Start`, `OnCollisionEnter` etc; as this allows then to make those lifecycles server or client only without throwing an error.
 {% endhint %}
 
 ### Server/Client only lifecycle methods
 
-Normal methods by default will _error_ if called in the wrong place. However, will lifecycle methods this is not the case as they may be intended to be server or client only, but not error!
+Lifecycle methods may also be designated as server or client only. In the example below, the Start lifecycle method automatically runs on the server but not on the client.
 
 ```typescript
 export default class ServerComponent extends AirshipBehaviour {
