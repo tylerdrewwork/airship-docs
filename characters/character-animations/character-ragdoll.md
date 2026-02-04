@@ -13,9 +13,9 @@ const ragdoll = this.gameObject.GetAirshipComponent<CharacterRagdoll>();
 if (ragdoll) {
 	ragdoll.SetRagdoll(true);
 	ragdoll.AddExplosiveForce(
-		80,//Force value
-		ragdoll.transform.position, //Explosion center point
-		3,//Explosion radius
+		80, // Force value
+		ragdoll.transform.position, // Explosion center point
+		3, // Explosion radius
 		0.25, // Upwards force modifier
 		ForceMode.Impulse,
 	);
